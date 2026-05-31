@@ -1,5 +1,5 @@
 local players = game.Players
-local LocalPlayer = game.Players.LocalPlayers
+local LocalPlayer = game.Players.LocalPlayer
 function GetClosestPlayer()
     local Character = LocalPlayer.Character
     local Root = Character and Character:FindFirstChild("HumanoidRootPart")
