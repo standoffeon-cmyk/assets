@@ -1,6 +1,3 @@
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
 local function GetClosestPlayer()
     local Character = LocalPlayer.Character
     local Root = Character and Character:FindFirstChild("HumanoidRootPart")
@@ -30,3 +27,5 @@ local function GetClosestPlayer()
 
     return Closest, Distance
 end
+
+return GetClosestPlayer
