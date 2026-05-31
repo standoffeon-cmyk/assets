@@ -1,4 +1,4 @@
-local function GetClosestPlayer()
+function GetClosestPlayer()
     local Character = LocalPlayer.Character
     local Root = Character and Character:FindFirstChild("HumanoidRootPart")
 
